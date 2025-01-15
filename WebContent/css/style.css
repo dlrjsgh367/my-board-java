@@ -1,0 +1,22 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+table, th, td {
+	border: 1px solid;
+	text-align: center;
+}
+
+.mb16 {
+	margin-bottom: 16px;
+}
