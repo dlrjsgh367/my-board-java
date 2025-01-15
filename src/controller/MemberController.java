@@ -32,7 +32,7 @@ public class MemberController extends HttpServlet { // HttpServlet 클래스 상
             throw new ServletException("Error retrieving member list.", e);
         }
     }
-
+ 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // 클라이언트에서 전달된 데이터를 가져옴
